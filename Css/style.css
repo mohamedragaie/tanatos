@@ -1,0 +1,377 @@
+/* start global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+}
+.container {
+    
+    width: 1200px;
+    margin: auto;
+    position:relative
+        
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.main-color {
+    color: #F7600E
+}
+
+.main-background {
+    background-color: #F7600E
+}
+
+.text-center {
+    text-align: center
+}
+
+.hidden {
+    display: none
+}
+
+.uper {
+    text-transform: uppercase
+}
+
+body {
+    height: 3000px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* end global */ 
+
+
+/* start header */
+
+.header {
+    background-image: url('../images/work_01.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+
+.header .navbar {
+    overflow:hidden;
+}
+
+.header .navbar {
+    padding:20px 0
+}
+.header .navbar .heading {
+    font-size: 25px;
+}
+
+.header .navbar .links {
+    float:right;
+    padding-top: 6px
+}
+
+.header .navbar .links i {
+    margin-left: 5px
+}
+
+
+.header .intro h1 {
+    font-weight:800;
+    margin: 0;
+    font-size: 50px
+}
+
+.header .intro  p {
+    line-height: 1.8;
+    font-size: 20px;
+    margin-bottom: 40px
+}
+
+.header .buttons button {
+    background-color: transparent;
+    width: 180px;
+    color: #FFF;
+    border-radius: 10px;
+    border: 1px #909090 solid;
+    margin: 0px 8px;
+    padding: 10px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+
+}
+
+.header .buttons button:hover {
+    background-color: #F7600E;
+    border: 1px #F7600E solid   
+}
+
+.header .arow {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    text-align:center;
+    padding-bottom: 20px
+}
+
+.header .arow  i {
+    border: 3px solid #909090;
+    border-radius: 50%;
+    padding: 10px 7px;
+    cursor: pointer
+}
+
+
+.header .arow  i:hover {
+    background-color: #F7600E;
+    border: 1px #F7600E solid 
+}
+/* end header */
+
+/* start services */
+
+.services {
+    margin:70px;
+    overflow:hidden
+}
+.services .serv {
+    float: left;
+    width:22%;
+    margin-right:4%
+}
+
+.services .serv:last-child {
+    margin-right:0
+}
+
+
+.services .serv i {
+    border: 1px solid #AAA;  
+    border-radius: 50%;
+    padding:38px;
+    color: #F7600E;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.services .serv i:hover{
+    background-color: #F7600E;
+    color:#FFF;
+    border: 1px #F7600E solid 
+}
+
+
+.services .serv .fa-mobile {
+    padding: 38px 53px
+}
+
+.services .serv h3 {
+    font-weight:normal;
+    color: #505050
+}
+
+.services .serv p {
+    line-height: 2;
+    color: #888;
+    padding
+}
+
+/* end sservices */
+
+/* start subscribe */
+
+.subscribe {
+    background-image: url(../images/work_05.png);
+    height: 250px;
+    background-size: cover
+}
+
+
+.subscribe form button{
+    margin-left: 30px;
+    padding: 10px;
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid #F7600E;
+    font-size: 15px;
+    color: #FFF;
+    cursor: pointer
+}
+
+.subscribe form input[type="email"] {
+    padding: 10px 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: 0;
+    color: #F7600E;
+}
+/* end subscribe */
+
+/* start our works */
+
+.works {
+    padding:50px 0
+}
+
+.works h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0
+}
+
+.works p {
+    line-height: 2;
+    margin: 10px 0 40px
+}
+
+.works .show-more{
+    padding: 13px 40px;
+    color: #555;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    margin-top:20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.works .show-more:hover {
+    color: #FFF;
+    background-color: #F7600E
+}
+
+.works .items {
+    overflow: hidden
+}
+
+
+
+.works .items .item {
+    float: left;
+    width: 30%;
+    margin-left: 1.3333%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 395px
+}
+
+
+.works .items .item .over {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(250, 107, 34, .9);
+    color: #FFF;
+}
+
+.works .items .item:hover .over{
+    display:block;
+}
+
+.works .items .item .over h2 {
+    margin-top: 100px
+}
+
+.works .items .item .over p {
+    padding: 0 10px;
+    line-height: 1.7
+}
+
+.works .items .item .over button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #FFF;
+    border-radius:8px;
+    color:#FFF;
+    margin-top:20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.works .items .item .over button:hover {
+    background-color: #FFF;
+    color:#F7600E;
+}
+
+/*end our works */
+
+/* start testimonials */
+
+.testem {
+    background-image: url(../images/work_04.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.testem .client {
+    color:#FFF;
+    padding: 40px;
+    line-height: 1.8;
+    font-size:20px;
+    position: relative
+}
+
+.testem .client img {
+    border-radius: 50%;
+    width: 129px;
+    height:138px
+}
+
+.testem .client p {
+    font-style:italic;
+}
+
+.testem .client span {
+    color:#F7600E;
+    font-size:30px
+}
+
+.testem .fa-chevron-right:hover,
+.testem .fa-chevron-left:hover {
+    color:#F7600E;
+    cursor:pointer
+}
+
+.testem .fa-chevron-right{
+    position: absolute;
+    top: 50%;
+    right:0;
+    color:#DDD
+}
+
+.testem .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    left:0;
+    color:#DDD
+}
+/* end testemonials */
+
+/* our frame */
+
+.overlay {
+    background-color: rgba(69, 74, 80, .9);
+    width: 100%;
+    height: 100%;
+}
+
+/*end our frame */
